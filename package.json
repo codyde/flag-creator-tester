@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.18",
+    "ai": "^3.1.26",
     "eslint-config-next": "^14.2.3",
     "launchdarkly-node-server-sdk": "^7.0.4",
     "launchdarkly-react-client-sdk": "^3.3.2",
