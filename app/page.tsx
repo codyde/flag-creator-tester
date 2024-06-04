@@ -2,7 +2,7 @@ import { useFlags } from "launchdarkly-react-client-sdk";
 import Image from "next/image";
 
 export default function Home() {
-  const { testFlag } = useFlags();
+  const { testFlag, testString } = useFlags();
   return (
     <div className="grid h-screen">
       <div className=" grid text-center justify-center items-center">
@@ -19,6 +19,7 @@ export default function Home() {
               <p>Bool Test</p>
             </div>
           )}
+          The test string flag is: ${testString}
         </div>
       </div>
     </div>
